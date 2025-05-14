@@ -1,25 +1,24 @@
 {
-    "name": "ANewEra",
+    "name": "A-New-Era",
     "tree": {
-      "$className": "DataModel",
-      "ReplicatedStorage": {
-        "$className": "ReplicatedStorage",
-        "Shared": {
-          "$path": "src/Shared"
+        "$className": "DataModel",
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "Shared": {
+                "$path": "src/Shared"
+            }
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "Server": {
+                "$path": "src/Server"
+            }
+        },
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$path": "src/Client"
+            }
         }
-      },
-      "StarterPlayer": {
-        "$className": "StarterPlayer",
-        "StarterPlayerScripts": {
-          "$path": "src/Client"
-        }
-      },
-      "ServerScriptService": {
-        "$className": "ServerScriptService",
-        "Server": {
-          "$path": "src/Server"
-        }
-      }
     }
-  }
-  
+}
