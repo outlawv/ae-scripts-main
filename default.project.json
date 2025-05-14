@@ -1,0 +1,25 @@
+{
+    "name": "ANewEra",
+    "tree": {
+      "$className": "DataModel",
+      "ReplicatedStorage": {
+        "$className": "ReplicatedStorage",
+        "Shared": {
+          "$path": "src/Shared"
+        }
+      },
+      "StarterPlayer": {
+        "$className": "StarterPlayer",
+        "StarterPlayerScripts": {
+          "$path": "src/Client"
+        }
+      },
+      "ServerScriptService": {
+        "$className": "ServerScriptService",
+        "Server": {
+          "$path": "src/Server"
+        }
+      }
+    }
+  }
+  
